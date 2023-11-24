@@ -31,6 +31,7 @@ public class Main {
 
         for (Media m : varMedia) {
             System.out.println(m);
+            System.out.println("---");
         }
 
         System.out.println(book1.toString());
