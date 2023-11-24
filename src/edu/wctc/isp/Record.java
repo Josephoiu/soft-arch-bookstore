@@ -2,6 +2,6 @@ package edu.wctc.isp;
 
 import java.time.Duration;
 
-public interface Record {
+public interface Record extends Media{
     Duration getPlayingTime();
 }

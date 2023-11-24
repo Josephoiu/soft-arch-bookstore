@@ -4,7 +4,7 @@ import java.time.Duration;
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 
-public class VinylRecord implements Media, Record {
+public class VinylRecord implements Record {
 
     private final int SECONDS_IN_MINUTE = 60;
     private final int SECONDS_IN_HOUR = SECONDS_IN_MINUTE * 60;

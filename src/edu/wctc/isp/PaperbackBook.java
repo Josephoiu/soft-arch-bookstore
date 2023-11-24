@@ -4,7 +4,7 @@ import java.time.Duration;
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 
-public class PaperbackBook implements Media, Book {
+public class PaperbackBook implements Book {
 
     private String title;
     private String isbn;

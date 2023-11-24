@@ -1,8 +1,11 @@
 package edu.wctc.isp;
 
+import java.lang.reflect.Array;
 import java.time.Duration;
 import java.time.LocalDate;
 import java.time.Month;
+import java.util.ArrayList;
+import java.util.List;
 
 public class Main {
 
@@ -21,6 +24,14 @@ public class Main {
                 13.54, 18,
                 LocalDate.of(2011, Month.APRIL, 12),
                 "Miles Davis", Duration.ofMinutes(46));
+        List<Media> varMedia = new ArrayList<>();
+            varMedia.add(book1);
+            varMedia.add(book2);
+            varMedia.add(record);
+
+        for (Media m : varMedia) {
+            System.out.println(m);
+        }
 
         System.out.println(book1.toString());
         System.out.println("\n");
